@@ -1,0 +1,22 @@
+<section class="container" *ngIf="listaProdutos != undefined">
+    <h1 class="titulo">Lista de Produtos</h1>
+    <section class="listaCards">
+        <div class="cards" *ngFor="let produto of listaProdutos">
+            <mat-card class="card">
+                <div class="img-card">
+                    <img [src]="produto.foto" width="100%" class="img-prod">
+                </div>
+    
+                <mat-card-title class="card-titulo">{{produto.nome}}</mat-card-title>
+                <mat-card-content>
+                    <p>ID: {{produto.id}}</p>
+                    <p>Preço: {{produto.preco}}</p>
+                    <p>Descrição: {{produto.descricao}}</p>
+                </mat-card-content>
+            </mat-card>
+        </div>
+    </section>
+    
+
+
+</section>

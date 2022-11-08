@@ -1,0 +1,52 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    
+}
+
+.titulo{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(42, 116, 165);
+    margin-bottom: 80px;
+  
+}
+
+.listaCards{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 80px;
+}
+
+.card{
+    width: 270px;
+    height: 380px;
+    margin: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.card-titulo{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(191, 118, 110);
+}
+
+.img-card{
+    width: 100%;
+    padding: 10px;
+    margin: none;
+    box-sizing: border-box;
+}
+
+.img-prod{
+    margin: none;
+}
+
